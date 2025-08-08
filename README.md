@@ -33,3 +33,16 @@ No advanced chat logic or database integration is implemented.
 
 ✅ *Just a minimal project for practicing SignalR fundamentals.*
 
+### Steps
+
+1. Clone the repository:
+   
+bash
+   git clone https://github.com/alesskeroov/SignalR-basic.git
+   
+If you have any questions, feel free to reach out.
+
+---
+
+**© 2025, Rəvan Ələsgərov**
+
