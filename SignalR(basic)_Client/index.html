@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="/signalr.min.js"></script>
+<script src="/jquery.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            const connection = new signalR.HubConnectionBuilder()
+                .withUrl("https://localhost:7183/MessageHub")
+                .withAutomaticReconnect([1000,1000,2000])
+                .build();
+
+           async function start(){
+ 
+            try {
+                await connection.start();
+            } catch (error) {
+                setTimeout(()=> start(),2000);
+            }
+            };
+
+            start();
+
+            function animation(){
+                 status.fadeIn(2000,()=>{
+                setTimeout(()=>{
+
+                    status.fadeOut(2000)
+                },2000)
+            })
+            };
+
+
+            const status=$("#status");
+            status.css("background-color","green");
+            status.css("color","white")
+            status.html("Connection....")
+            animation();
+            connection.onreconnecting(eror=>{
+
+                const status=$("#status");
+            status.css("background-color","blue");
+            status.css("color","white")
+            status.html("Connection....")
+            animation();
+            });
+
+             connection.onreconnected(connectionId=>{
+                
+                const status=$("#status");
+            status.css("background-color","green");
+            status.css("color","white")
+            status.html("Connected!!")
+            animation();
+            });
+             connection.onclose(connectionId=>{
+                
+                const status=$("#status");
+            status.css("background-color","red");
+            status.css("color","white")
+            status.html("No Connection")
+            animation();
+            });
+            
+
+
+            $("#BtnSend").click(() => {
+                let message = $("#textMessage").val();
+                let connectionIds=$("#connectionIds").val().split(",");
+
+
+                // connection.invoke("SendMessageAsync", message,connectionIds)
+                //     .catch(error => console.log(`Error sending: ${error}`));
+                connection.invoke("SendMessageAsync", message,$("input[name=grup]:checked"))
+                    .catch(error => console.log(`Error sending: ${error}`));
+            });
+
+            connection.on("receiveMessage", messages => {
+                $("#chatBox").append(messages + "<br>");
+            });
+
+            let _connectionId="";
+            connection.on("getConnectionId",connectionId=>{
+                _connectionId=connectionId
+                $("#connectionId").html(`Connection Id: ${connectionId}`)
+            })
+
+
+            $("#joinGroup").click(()=>{
+
+                let groupName=$("input[name=grup]:checked").val();
+                connection.invoke("addGroup",_connectionId,groupName).catch(error => console.log(`Error sending: ${error}`));
+            });
+            
+           
+        });
+    </script>
+</head>
+<body>
+    <div style="background-color: black; color: white;" id="connectionId"></div>
+    <input type="radio" name="grup" value="A">A
+    <input type="radio" name="grup" value="B">B
+    <input type="radio" name="grup" value="C">C
+    <button id="joinGroup">Join</button>
+    <div id="status" style="display: none;"></div>
+    <input type="text" id="textMessage" placeholder="Message">
+    <br>
+    <textarea cols="30" rows="10" id="connectionIds" placeholder="connectionId"></textarea>
+    <button id="BtnSend">Send</button>
+    <div id="chatBox" style="margin-top: 10px;"></div>
+
+</body>
+</html>

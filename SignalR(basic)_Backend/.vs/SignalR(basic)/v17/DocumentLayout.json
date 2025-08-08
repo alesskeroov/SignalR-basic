@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elesg\\OneDrive\\Desktop\\SignalR(basic)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D476646-A79C-4EAD-818D-39D5E3C458D4}|SignalR(basic)\\SignalR(basic).csproj|c:\\users\\elesg\\onedrive\\desktop\\signalr(basic)\\signalr(basic)\\hubs\\messagehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D476646-A79C-4EAD-818D-39D5E3C458D4}|SignalR(basic)\\SignalR(basic).csproj|solutionrelative:signalr(basic)\\hubs\\messagehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D476646-A79C-4EAD-818D-39D5E3C458D4}|SignalR(basic)\\SignalR(basic).csproj|c:\\users\\elesg\\onedrive\\desktop\\signalr(basic)\\signalr(basic)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D476646-A79C-4EAD-818D-39D5E3C458D4}|SignalR(basic)\\SignalR(basic).csproj|solutionrelative:signalr(basic)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D476646-A79C-4EAD-818D-39D5E3C458D4}|SignalR(basic)\\SignalR(basic).csproj|c:\\users\\elesg\\onedrive\\desktop\\signalr(basic)\\signalr(basic)\\interfaces\\imessageclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D476646-A79C-4EAD-818D-39D5E3C458D4}|SignalR(basic)\\SignalR(basic).csproj|solutionrelative:signalr(basic)\\interfaces\\imessageclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D476646-A79C-4EAD-818D-39D5E3C458D4}|SignalR(basic)\\SignalR(basic).csproj|c:\\users\\elesg\\onedrive\\desktop\\signalr(basic)\\signalr(basic)\\hubs\\myhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D476646-A79C-4EAD-818D-39D5E3C458D4}|SignalR(basic)\\SignalR(basic).csproj|solutionrelative:signalr(basic)\\hubs\\myhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D476646-A79C-4EAD-818D-39D5E3C458D4}|SignalR(basic)\\SignalR(basic).csproj|c:\\users\\elesg\\onedrive\\desktop\\signalr(basic)\\signalr(basic)\\business\\mybusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D476646-A79C-4EAD-818D-39D5E3C458D4}|SignalR(basic)\\SignalR(basic).csproj|solutionrelative:signalr(basic)\\business\\mybusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D476646-A79C-4EAD-818D-39D5E3C458D4}|SignalR(basic)\\SignalR(basic).csproj|c:\\users\\elesg\\onedrive\\desktop\\signalr(basic)\\signalr(basic)\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4D476646-A79C-4EAD-818D-39D5E3C458D4}|SignalR(basic)\\SignalR(basic).csproj|solutionrelative:signalr(basic)\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D476646-A79C-4EAD-818D-39D5E3C458D4}|SignalR(basic)\\SignalR(basic).csproj|c:\\users\\elesg\\onedrive\\desktop\\signalr(basic)\\signalr(basic)\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4D476646-A79C-4EAD-818D-39D5E3C458D4}|SignalR(basic)\\SignalR(basic).csproj|solutionrelative:signalr(basic)\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessageHub.cs",
+              "DocumentMoniker": "C:\\Users\\elesg\\OneDrive\\Desktop\\SignalR(basic)\\SignalR(basic)\\Hubs\\MessageHub.cs",
+              "RelativeDocumentMoniker": "SignalR(basic)\\Hubs\\MessageHub.cs",
+              "ToolTip": "C:\\Users\\elesg\\OneDrive\\Desktop\\SignalR(basic)\\SignalR(basic)\\Hubs\\MessageHub.cs",
+              "RelativeToolTip": "SignalR(basic)\\Hubs\\MessageHub.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T07:14:40.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMessageClient.cs",
+              "DocumentMoniker": "C:\\Users\\elesg\\OneDrive\\Desktop\\SignalR(basic)\\SignalR(basic)\\Interfaces\\IMessageClient.cs",
+              "RelativeDocumentMoniker": "SignalR(basic)\\Interfaces\\IMessageClient.cs",
+              "ToolTip": "C:\\Users\\elesg\\OneDrive\\Desktop\\SignalR(basic)\\SignalR(basic)\\Interfaces\\IMessageClient.cs",
+              "RelativeToolTip": "SignalR(basic)\\Interfaces\\IMessageClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T07:06:58.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\elesg\\OneDrive\\Desktop\\SignalR(basic)\\SignalR(basic)\\Program.cs",
+              "RelativeDocumentMoniker": "SignalR(basic)\\Program.cs",
+              "ToolTip": "C:\\Users\\elesg\\OneDrive\\Desktop\\SignalR(basic)\\SignalR(basic)\\Program.cs",
+              "RelativeToolTip": "SignalR(basic)\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T00:27:57.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyHub.cs",
+              "DocumentMoniker": "C:\\Users\\elesg\\OneDrive\\Desktop\\SignalR(basic)\\SignalR(basic)\\Hubs\\MyHub.cs",
+              "RelativeDocumentMoniker": "SignalR(basic)\\Hubs\\MyHub.cs",
+              "ToolTip": "C:\\Users\\elesg\\OneDrive\\Desktop\\SignalR(basic)\\SignalR(basic)\\Hubs\\MyHub.cs",
+              "RelativeToolTip": "SignalR(basic)\\Hubs\\MyHub.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwB0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T00:28:40.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\elesg\\OneDrive\\Desktop\\SignalR(basic)\\SignalR(basic)\\Business\\MyBusiness.cs",
+              "RelativeDocumentMoniker": "SignalR(basic)\\Business\\MyBusiness.cs",
+              "ToolTip": "C:\\Users\\elesg\\OneDrive\\Desktop\\SignalR(basic)\\SignalR(basic)\\Business\\MyBusiness.cs",
+              "RelativeToolTip": "SignalR(basic)\\Business\\MyBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T06:34:45.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\elesg\\OneDrive\\Desktop\\SignalR(basic)\\SignalR(basic)\\appsettings.json",
+              "RelativeDocumentMoniker": "SignalR(basic)\\appsettings.json",
+              "ToolTip": "C:\\Users\\elesg\\OneDrive\\Desktop\\SignalR(basic)\\SignalR(basic)\\appsettings.json",
+              "RelativeToolTip": "SignalR(basic)\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-07T00:56:49.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\elesg\\OneDrive\\Desktop\\SignalR(basic)\\SignalR(basic)\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SignalR(basic)\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\elesg\\OneDrive\\Desktop\\SignalR(basic)\\SignalR(basic)\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SignalR(basic)\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-07T00:57:03.495Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
