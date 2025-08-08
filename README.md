@@ -37,7 +37,7 @@ No advanced chat logic or database integration is implemented.
 
 1. Clone the repository:
    
-bash
+```bash
    git clone https://github.com/alesskeroov/SignalR-basic.git
    
 If you have any questions, feel free to reach out.
